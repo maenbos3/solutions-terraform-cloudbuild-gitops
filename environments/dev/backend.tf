@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "husain-rag-playground-02-tfstate"
     prefix = "env/dev"
   }
 }
